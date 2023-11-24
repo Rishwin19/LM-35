@@ -7,4 +7,5 @@ i used an analog sensor which was not giving me an accurate value of temperature
 but i somehow managed to find a solution. which i believe to be true.
 in some simulator it was needed to subtract an addition 50 degree to correct my temperature value. Which i didnt include in the above code.
 I still belive  that it would have been an easy task if i had the hardware accesories on reach.
+I AM STILL NOT SURE THAT THE ABOVE CODE MIGHT WORK ON REAL TIME WITH THE HARDWARE BUT IS PERFECTY WORKING ON SIMULATER.AND THE CODE WAS HAVING NO ERROE WHILE COMPILING ON ARDUINO IDE.
 Thanks for reading.
