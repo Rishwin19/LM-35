@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   int sensorValue = analogRead(A0);  // Read LM35 sensor value
-  float temperature = (sensorValue * 0.0048828125) * 10.0;  // Convert sensor value to temperature in Celsius.100 should be the value used but i am having some difficulties using the online simulator and the values are exeeding beyond 200. To round it of to 20 i used 10.
+  float temperature = (sensorValue * 0.0048828125) * 100.0;  // Convert sensor value to temperature in Celsius.100 should be the value used but i am having some difficulties using the online simulator and the values are exeeding beyond 200. To round it of to 20 i used 10.
   Serial.print(temperature);
   Serial.print("C    ");
  
